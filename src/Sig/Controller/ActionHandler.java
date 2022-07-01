@@ -22,32 +22,32 @@ public class ActionHandler implements ActionListener {
                 
                 switch (e.getActionCommand()){
                     
-                    case "New Invoice" ;
+                    case "New Invoice" :
                     System.out.println("New Invoice");
                     newInv();
                     break;
                     
-                       case  "Delete Invoice";
+                    case   "Delete Invoice" :
                      System.out.println("Delete Invoice");
                      deleteInv();
                     break;
                     
-                    case "New Item";
+                    case "New Item" :
                      System.out.println("New Item");
                      newItem();
                     break;
                     
-                    case "Delete Item";
+                    case "Delete Item" :
                      System.out.println("Delete Item");
                      deleteItem();
                     break;
                     
-                    case "Load File";
+                    case "Load File" :
                      System.out.println("Load File");
                      loadFile();
                     break;
                     
-                    case "Save File";
+                    case "Save File" :
                      System.out.println("Save File");
                      saveFile();
                     break;
